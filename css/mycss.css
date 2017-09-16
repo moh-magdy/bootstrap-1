@@ -1,0 +1,334 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+
+}
+body {
+  height: 4500px;
+  padding-top: 60px
+}
+.cbalink{
+  display: none !important;
+}
+
+/***** start overriding bootstrap *****/
+.t {
+  background-color: #555;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding:10px;
+  font-size: 25px;
+  min-height: 100px;
+  border: 1px solid #000;
+  box-shadow: 3px 3px #999
+
+}
+/* min navbar */
+.navbar {
+  min-height: 61px
+}
+/* active link*/
+.navbar-inverse .navbar-nav > .active >
+a, .navbar-inverse .navbar-nav > .active >
+a:hover, .navbar-inverse .navbar-nav > .active >
+a:focus {
+  background-color: #e41b17
+}
+/* navbar link*/
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #BBB;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.navbar-inverse .navbar-brand{
+  color: #bbb;
+  font-size: 30px;
+  line-height: 40px
+}
+.navbar-inverse .navbar-brand span {
+  color: #e41b17
+}
+/* dropdown-menu */
+.dropdown-menu {
+  background-color: #333;
+  border-top: 3px solid #e41b17;
+  min-width: 200px;
+}
+.dropdown-menu li a {
+  color: #fff;
+  padding: 6px 20px;
+  transition: padding .5s ease;
+  -webkit-transition: padding .5s ease;
+  -moz-transition: padding .5s ease;
+  -o-transition: padding .5s ease;
+}
+/* dropdown-menu-hover */
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-color: #e41b17;
+  color: #fff;
+  padding-left: 25px
+}
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-color: #e41b17;
+    color: #fff;
+    padding-left: 30px
+}
+
+}
+/* divider*/
+.dropdown-menu .divider {
+  background-color: #871818
+}
+/* navbar-toggle */
+
+.navbar-inverse .navbar-toggle {
+  margin-top: 15px
+}
+.item img {
+  background-size: cover;
+
+}
+/* carousel */
+
+#myslide .carousel-caption h1 {
+  color: #e41b17
+}
+#myslide .carousel-indicators li {
+  height: 15px;
+  width:  15px;
+}
+#myslide .carousel-indicators .active {
+  height: 18px;
+  width:  18px;
+  background-color:  #e41b17
+}
+/***** end overriding bootstrap *****/
+
+/* start about */
+.about {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.about .lead {
+  color: #555
+}
+.about span {
+
+  color: #e41b17;
+}
+.about h1 {
+  font-weight: bold;
+}
+/* end about */
+
+/* start features */
+.features {
+  background-color: #eee;
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+.features h1 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.features .feat {
+  margin-bottom: 30px
+}
+.features .feat p {
+  line-height: 1.6em;
+}
+.features .feat span.glyphicon {
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #444
+}
+
+/* end features */
+
+/*start testimonials */
+.testimonials {
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+.testimonials h1 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.testimonials .lead {
+  line-height: 1.6em;
+  margin-bottom: 10px
+}
+.testimonials span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e41b17
+}
+.testimonials .carousel-inner {
+  min-height: 130px;
+}
+.testimonials .carousel-indicators {
+  position: static;
+  width: 100%;
+  margin-left: auto;
+  margin-top: 10px
+}
+.testimonials .carousel-indicators li {
+  text-indent: 0;
+  width: 80px;
+  height: 80px;
+  opacity: .3;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 5px;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.testimonials .carousel-indicators li.active {
+  text-indent: 0;
+  width: 80px;
+  height: 80px;
+  opacity: 1;
+}
+.testimonials .carousel-indicators li img {
+  width: 100%
+}
+/* end testimonials */
+
+/* start price table section */
+.price-table {
+  background-color: #eee;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.price-table h1 {
+  margin-bottom: 40px;
+}
+.price-table .price-box {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px
+}
+.price-table .price-box h2 {
+  margin: 5px 0 15px 0
+}
+.price-table .price-box p {
+  font-size: 35px;
+  font-weight: bold;
+  color: #666;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  line-height: 100px;
+  border: 2px solid #fff;
+  transition-duration: .7s;
+  -webkit-transition-duration: .7s;
+  -moz-transition-duration: .7s
+}
+.price-table .price-box:hover p {
+  border: 2px solid #dfdfdf;
+  -webkit-transform: scale(1.1,1.1) rotate(360deg);
+  -moz-transform: scale(1.1,1.1) rotate(360deg);
+  transform: scale(1.1,1.1) rotate(360deg);
+}
+.price-table .price-box ul {
+  line-height: 250%;
+  font-size: 18px
+}
+.price-table .price-box a {
+  margin-bottom: 5px
+}
+/* end price table section */
+
+/* start our team section */
+.our-team {
+  background: url("../imags/team.jpeg") no-repeat center center fixed;
+  min-height: 600px
+}
+.our-team h1 {
+  margin-bottom: 60px
+}
+.our-team .team {
+  background-color: rgba(2,2,2,.5);
+  color: #fff;
+  min-height: 600px;
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+.our-team .person {
+  margin-bottom: 40px
+}
+/* end our team section */
+
+/* start Subscribe section */
+.subscribe {
+  padding-top: 40px;
+  padding-bottom: 70px;
+  background: #eee
+}
+.subscribe h1 {
+  color: #888;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.subscribe p {
+  margin-bottom: 30px
+}
+.subscribe .form-control {
+  border-radius: 0;
+
+}
+.subscribe button {
+    border-radius: 0;
+    margin-left: -5px
+}
+/* end Subscribe section */
+
+/* start stats section */
+.statistics {
+  background: url(../imags/stats.jpeg) no-repeat center center fixed;
+
+}
+.statistics h1 {
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+.data {
+  background-color: rgba(6,6,6,.3);
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+.statistics .stats {
+  color: #b6b5b5;
+  margin-bottom: 30px;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+.statistics .stats:hover {
+  color: #fff;
+
+}
+.stats p {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 0
+}
+.stats span {
+  font-size: 18px
+}
+
+
+/* end stats section */
