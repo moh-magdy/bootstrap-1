@@ -7,7 +7,8 @@
 }
 body {
   height: 4500px;
-  padding-top: 60px
+  padding-top: 60px;
+
 }
 .cbalink{
   display: none !important;
@@ -253,6 +254,10 @@ a:focus {
 /* start our team section */
 .our-team {
   background: url("../imags/team.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   min-height: 600px
 }
 .our-team h1 {
@@ -297,6 +302,10 @@ a:focus {
 /* start stats section */
 .statistics {
   background: url(../imags/stats.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 .statistics h1 {
