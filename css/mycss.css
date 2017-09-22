@@ -6,7 +6,6 @@
 
 }
 body {
-  height: 6000px;
   padding-top: 60px;
 
 }
@@ -412,10 +411,9 @@ a:focus {
 /* end our clients section */
 /* start  footer section */
 .footer {
-  background: #333;
+  background: #111;
   color: #aaa;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
 }
 .footer a {
   color: #aaa
@@ -453,5 +451,20 @@ a:focus {
 .footer .social-list li:hover {
   opacity: 1;
     filter:alpha(opacity=100);
+}
+.footer .img-thumbnail {
+  background: rgba(0,0,0,.3);
+  border: 1px solid #444;
+  margin-bottom: 5px
+}
+.footer .copyright {
+  background: #333;
+  color: #aaa;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 18px
+}
+.footer .copyright span {
+  color: #e41b17
 }
 /* end  footer section */
