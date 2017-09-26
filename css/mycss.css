@@ -74,13 +74,7 @@ a:focus {
   color: #fff;
   padding-left: 25px
 }
-@media (max-width: 767px) {
-  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-    background-color: #e41b17;
-    color: #fff;
-    padding-left: 30px
-}
+
 
 }
 /* divider*/
