@@ -1,0 +1,30 @@
+/*** start default theme ***/
+
+/* back ground color */
+.navbar-inverse .navbar-nav > .active >
+a, .navbar-inverse .navbar-nav > .active >
+a:hover, .navbar-inverse .navbar-nav > .active >
+a:focus, #myslide .carousel-indicators .active,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.option-box .gear-check {
+  background-color: #ba56bb
+}
+
+/* border */
+.dropdown-menu {
+  border-top: 3px solid #ba56bb;
+}
+.option-box .color-option {
+  border: 2px solid #ba56bb;
+}
+
+/*color */
+#myslide .carousel-caption h1,
+.about span, .testimonials span,
+.footer h3, .footer .copyright span,
+.navbar-inverse .navbar-brand span {
+  color: #ba56bb
+}
+
+/*** end default theme ***/

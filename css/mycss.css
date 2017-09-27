@@ -28,15 +28,10 @@ body {
 }
 /* min navbar */
 .navbar {
-  min-height: 61px
+  min-height: 61px;
+  z-index: 9999
 }
-/* active link*/
-.navbar-inverse .navbar-nav > .active >
-a, .navbar-inverse .navbar-nav > .active >
-a:hover, .navbar-inverse .navbar-nav > .active >
-a:focus {
-  background-color: #e41b17
-}
+
 /* navbar link*/
 
 .navbar-inverse .navbar-nav > li > a {
@@ -50,13 +45,10 @@ a:focus {
   font-size: 30px;
   line-height: 40px
 }
-.navbar-inverse .navbar-brand span {
-  color: #e41b17
-}
+
 /* dropdown-menu */
 .dropdown-menu {
   background-color: #333;
-  border-top: 3px solid #e41b17;
   min-width: 200px;
 }
 .dropdown-menu li a {
@@ -70,7 +62,6 @@ a:focus {
 /* dropdown-menu-hover */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  background-color: #e41b17;
   color: #fff;
   padding-left: 25px
 }
@@ -92,9 +83,7 @@ a:focus {
 }
 /* carousel */
 
-#myslide .carousel-caption h1 {
-  color: #e41b17
-}
+
 #myslide .carousel-indicators li {
   height: 15px;
   width:  15px;
@@ -102,7 +91,6 @@ a:focus {
 #myslide .carousel-indicators .active {
   height: 18px;
   width:  18px;
-  background-color:  #e41b17
 }
 /***** end overriding bootstrap *****/
 
@@ -112,7 +100,7 @@ a:focus {
   position: fixed;
   left: 0;
   top: 100px;
-  z-index: 9999;
+  z-index: 9997;
 
 }
 .option-box .color-option {
@@ -120,24 +108,20 @@ a:focus {
   background: #333;
   color: #fff;
   padding: 10px;
-  width: 200px;
-  border: 2px solid #e41b17;
   display: none;
-
 }
 .option-box .color-option ul li {
   width: 20px;
   height: 20px;
-  background: #f00;
   display: inline-block;
-  margin-right: 3px
+  margin-right: 3px;
+  cursor:pointer;
 }
 .option-box .gear-check {
   padding: 5px;
-  background: #e41b17;
   color: #fff;
   cursor: pointer;
-  
+
 }
 /* start tool box */
 
@@ -149,10 +133,7 @@ a:focus {
 .about .lead {
   color: #555
 }
-.about span {
 
-  color: #e41b17;
-}
 .about h1 {
   font-weight: bold;
 }
@@ -198,7 +179,6 @@ a:focus {
 .testimonials span {
   font-size: 20px;
   font-weight: bold;
-  color: #e41b17
 }
 .testimonials .carousel-inner {
   min-height: 130px;
@@ -452,7 +432,6 @@ a:focus {
   color: #fff
 }
 .footer h3 {
-  color:#0895d1;
   letter-spacing: 1px;
   margin: 30px 0 20px;
 }
@@ -494,7 +473,5 @@ a:focus {
   margin-top: 30px;
   font-size: 18px
 }
-.footer .copyright span {
-  color: #e41b17
-}
+
 /* end  footer section */
